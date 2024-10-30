@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Input field and spinner for source currency -->
+    <EditText
+        android:id="@+id/editTextSourceAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Source Amount"
+        android:inputType="numberDecimal" />
+
+    <Spinner
+        android:id="@+id/spinnerSourceCurrency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Input field and spinner for target currency -->
+    <EditText
+        android:id="@+id/editTextTargetAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Target Amount"
+        android:inputType="numberDecimal" />
+
+    <Spinner
+        android:id="@+id/spinnerTargetCurrency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- TextView for exchange rates info -->
+    <TextView
+        android:id="@+id/textViewRates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exchange Rates"
+        android:paddingTop="16dp" />
+
+</LinearLayout>
